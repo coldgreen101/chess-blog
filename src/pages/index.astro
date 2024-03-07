@@ -30,5 +30,10 @@ const pageTitle = "Gambit Chronicles";
       <h1>{pageTitle}</h1>
     </main>
     <Footer />
+    <script>
+      document.querySelector('.hamburger').addEventListener('click', () => {
+        document.querySelector('nav-links').classList.toggle('expanded');
+      });
+    </script>
   </body>
 </html>
