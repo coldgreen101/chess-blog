@@ -20,6 +20,10 @@ const identity = {
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.jade.min.css"
+    />
     <title>{pageTitle}</title>
   </head>
   <body>
@@ -42,9 +46,9 @@ const identity = {
       I'm {identity.firstName}
       {identity.lastName}, a spirited chess player from the beautiful lands of {
         identity.country
-      }. Embarking on my chess journey at the ripe age of {identity.chessAge} back in
-      August 2018, I've been joyously diving into the intricacies of the game ever
-      since!
+      }. Embarking on my chess journey at the ripe age of {identity.chessAge} back
+      in August 2018, I've been joyously diving into the intricacies of the game
+      ever since!
     </p>
     <p>
       Despite being relatively young in my chess journey, I've managed to
