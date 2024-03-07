@@ -1,10 +1,8 @@
 ---
-const platform = "lichess";
-const username = "clouddistrict";
+import Social from './Social.astro';
 ---
 
 <footer>
-  <small>
-    <p>Follow me on <a href={`https://www.${platform}.org/@/${username}`}>{platform}</a>!</p>
-  </small>
+  <Social platform="lichess" username="clouddistrict" />
+  <Social platform="github" username="coldgreen101" />
 </footer>
