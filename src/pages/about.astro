@@ -1,16 +1,16 @@
 ---
-const pageTitle = 'About Me';
+const pageTitle = "About Me";
 
 const identity = {
-  firstName: 'Domjan',
-  lastName: 'Grkinic',
-  country: 'Germany',
+  firstName: "Domjan",
+  lastName: "Grkinic",
+  country: "Germany",
   age: 22,
   fideRating: 1882,
   nationalRating: 1592,
   lichessRating: 2008,
-  favoritePlayer: 'Nodirbek Abdusattorov',
-}
+  favoritePlayer: "Nodirbek Abdusattorov",
+};
 ---
 
 <html lang="en">
@@ -33,10 +33,37 @@ const identity = {
     </header>
     <h1>{pageTitle}</h1>
     <p>
-      I am starting a blog in order to share my chess knowledge, experiences, analysis.
+      Hey there, fellow chess enthusiasts! 🎉 Welcome to my personal corner of
+      the chess universe where every move is a dance and every checkmate a
+      triumph!
     </p>
     <p>
-      I will post every time I play an OTB game and analyze it thouroghly.
+      I'm {identity.firstName}
+      {identity.lastName}, a spirited chess player from the beautiful lands of {
+        identity.country
+      }. Embarking on my chess journey at the ripe age of {identity.age} back in
+      August 2018, I've been joyously diving into the intricacies of the game ever
+      since!
+    </p>
+    <p>
+      Despite my tender age, I've already left my mark with a FIDE rating of {
+        identity.fideRating
+      } and a national rating of {identity.nationalRating}. You might also catch
+      me showcasing my skills on Lichess, where I boast a proud rating of {
+        identity.lichessRating
+      }.
+    </p>
+    <p>
+      When it comes to chess idols, I bow down to the mighty {
+        identity.favoritePlayer
+      }! His moves on the board are pure wizardry, and I find endless
+      inspiration in his games.
+    </p>
+    <p>
+      So why this blog? I'm here to share the highs and lows, the victories and
+      defeats, and most importantly, the sheer joy of playing chess. Expect
+      regular updates as I dissect every OTB game I play, sharing insights,
+      analysis, and perhaps a sprinkle of chess humor along the way!
     </p>
   </body>
 </html>
