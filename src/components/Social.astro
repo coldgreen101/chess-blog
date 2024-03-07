@@ -2,11 +2,11 @@
 const { platform, username } = Astro.props;
 
 let url;
-if (platform === 'lichess') {
+if (platform === "lichess") {
   url = `https://lichess.org/@/${username}`;
-} else if (platform === 'github') {
+} else if (platform === "github") {
   url = `https://github.com/${username}`;
-} else if (platform === 'chess.com') {
+} else if (platform === "chess.com") {
   url = `https://chess.com/member/${username}`;
 } else {
   // Handle other platforms if needed
