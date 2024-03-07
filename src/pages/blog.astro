@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import "../components/Navigation.astro";
 
 const pageTitle = "Blog";
 ---
@@ -22,13 +23,7 @@ const pageTitle = "Blog";
   </head>
   <body>
     <header class="container-fluid">
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/blog/">Blog</a></li>
-        </ul>
-      </nav>
+      <Navigation />
     </header>
     <main class="container">
       <h1>{pageTitle}</h1>

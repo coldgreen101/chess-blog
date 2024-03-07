@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import Navigation from '../components/Navigation.astro';
 
 const pageTitle = "About Me";
 
@@ -34,13 +35,7 @@ const identity = {
   </head>
   <body>
     <header class="container-fluid">
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/blog/">Blog</a></li>
-        </ul>
-      </nav>
+      <Navigation />
     </header>
     <main class="container">
       <h1>{pageTitle}</h1>
