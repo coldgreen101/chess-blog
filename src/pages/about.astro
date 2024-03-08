@@ -1,8 +1,5 @@
 ---
-import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Footer from '../components/Footer.astro';
-
+import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = 'About Me';
 
 const identity = {
@@ -18,58 +15,36 @@ const identity = {
 };
 ---
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.jade.min.css"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
-      rel="stylesheet"
-    />
-    <title>{pageTitle}</title>
-  </head>
-  <body>
-    <BaseLayout pageTitle={pageTitle}>
-      <p>
-        Hey there, fellow chess enthusiasts! 🎉 Welcome to my personal corner of
-        the chess universe where every move is a dance and every checkmate a
-        triumph!
-      </p>
-      <p>
-        I'm {identity.firstName}
-        {identity.lastName}, a spirited chess player from the beautiful lands of {
-          identity.country
-        }. Embarking on my chess journey at the ripe age of {identity.chessAge} back
-        in August 2018, I've been joyously diving into the intricacies of the game
-        ever since!
-      </p>
-      <p>
-        Despite being relatively young in my chess journey, I've managed to
-        achieve a FIDE rating of {identity.fideRating} and a national rating of {
-          identity.nationalRating
-        }. You might also find me honing my skills on Lichess, where I've
-        attained a rating of {identity.lichessRating}.
-      </p>
-      <p>
-        When it comes to chess idols, I bow down to the mighty {
-          identity.favoritePlayer
-        }! His moves on the board are pure wizardry, and I find endless
-        inspiration in his games.
-      </p>
-      <p>
-        So why this blog? I'm here to weave together the threads of my chess
-        journey, sharing the thrills and spills, the gambits and
-        counter-gambits. Expect regular updates as I chronicle each move,
-        providing insights, analysis, and perhaps even a touch of whimsy along
-        the way!
-      </p>
-    </BaseLayout>
-  </body>
-  <Footer />
-</html>
+<BaseLayout pageTitle={pageTitle}>
+  <p>
+    Hey there, fellow chess enthusiasts! 🎉 Welcome to my personal corner of the
+    chess universe where every move is a dance and every checkmate a triumph!
+  </p>
+  <p>
+    I'm {identity.firstName}
+    {identity.lastName}, a spirited chess player from the beautiful lands of {
+      identity.country
+    }. Embarking on my chess journey at the ripe age of {identity.chessAge} back
+    in August 2018, I've been joyously diving into the intricacies of the game ever
+    since!
+  </p>
+  <p>
+    Despite being relatively young in my chess journey, I've managed to achieve
+    a FIDE rating of {identity.fideRating} and a national rating of {
+      identity.nationalRating
+    }. You might also find me honing my skills on Lichess, where I've attained a
+    rating of {identity.lichessRating}.
+  </p>
+  <p>
+    When it comes to chess idols, I bow down to the mighty {
+      identity.favoritePlayer
+    }! His moves on the board are pure wizardry, and I find endless inspiration
+    in his games.
+  </p>
+  <p>
+    So why this blog? I'm here to weave together the threads of my chess
+    journey, sharing the thrills and spills, the gambits and counter-gambits.
+    Expect regular updates as I chronicle each move, providing insights,
+    analysis, and perhaps even a touch of whimsy along the way!
+  </p>
+</BaseLayout>
