@@ -16,7 +16,6 @@ const pageTitle = 'Tag Index';
     border-radius: .5em;
     font-size: 1.15em;
     padding: .5em 1em;
-    background-color: #CCC6B4;
   }
 </style>
 
@@ -25,7 +24,7 @@ const pageTitle = 'Tag Index';
     {
       tags.map((tag) => (
         <p class="tag">
-          <a href={`/tags/${tag}`}>{tag}</a>
+          <a class="contrast" href={`/tags/${tag}`}>{tag}</a>
         </p>
       ))
     }
