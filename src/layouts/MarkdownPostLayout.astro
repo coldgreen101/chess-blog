@@ -4,13 +4,17 @@ const { frontmatter } = Astro.props;
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <p>Published on: {frontmatter.pubDate.toString().slice(0, 10)}</p>
   <p><em>{frontmatter.description}</em></p>
-  <p>Written by {frontmatter.author}</p>
+  <p>{frontmatter.pubDate.toString().slice(0, 10)}</p>
+
+  <p>Written by: {frontmatter.author}</p>
+
   <img src={frontmatter.image.url} width="300" alt={frontmatter.image.alt} />
-  <article class="tags">
+
+  <slot />
+  <div class="tags">
     {
-      tags.map((tag) => (
+      frontmatter.tags.map((tag) => (
         <p class="tag">
           <a class="contrast" href={`/tags/${tag}`}>
             {tag}
@@ -18,10 +22,8 @@ const { frontmatter } = Astro.props;
         </p>
       ))
     }
-  </article>
-  <slot />
+  </div>
 </BaseLayout>
-
 <style>
   .tags {
     display: flex;
