@@ -1,20 +1,20 @@
 ---
-import "../styles/global.css";
-import Header from "../components/Header.astro";
-import Footer from "../components/Footer.astro";
+import '../styles/global.css';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 
-const pageTitle = "About Me";
+const pageTitle = 'About Me';
 
 const identity = {
-  firstName: "Domjan",
-  lastName: "Grkinic",
-  country: "Germany",
+  firstName: 'Domjan',
+  lastName: 'Grkinic',
+  country: 'Germany',
   age: 22,
   chessAge: 17,
   fideRating: 1882,
   nationalRating: 1592,
   lichessRating: 2008,
-  favoritePlayer: "Nodirbek Abdusattorov",
+  favoritePlayer: 'Nodirbek Abdusattorov',
 };
 ---
 
@@ -35,9 +35,7 @@ const identity = {
     <title>{pageTitle}</title>
   </head>
   <body>
-    <Header />
-    <main class="container">
-      <h1>{pageTitle}</h1>
+    <BaseLayout pageTitle={pageTitle}>
       <p>
         Hey there, fellow chess enthusiasts! 🎉 Welcome to my personal corner of
         the chess universe where every move is a dance and every checkmate a
@@ -71,7 +69,7 @@ const identity = {
         providing insights, analysis, and perhaps even a touch of whimsy along
         the way!
       </p>
-    </main>
-    <Footer />
+    </BaseLayout>
   </body>
+  <Footer />
 </html>
