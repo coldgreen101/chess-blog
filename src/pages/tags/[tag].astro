@@ -20,7 +20,17 @@ interface StaticPath {
 
 // Add type annotations to variables and functions
 export async function getStaticPaths(): Promise<StaticPath[]> {
-  const allPosts: Post[] = await Astro.glob('../posts/*.md');
+  const allPosts: Post[] = (await Astro.glob('../posts/*.md')).map(
+    (instance) => ({
+      title: instance.data.title,
+      url: instance.url,
+      frontmatter: {
+        title: instance.data.title,
+        tags: instance.data.tags,
+      },
+    })
+  );
+
   const uniqueTags: string[] = [
     ...new Set(allPosts.flatMap((post) => post.frontmatter.tags)),
   ];
