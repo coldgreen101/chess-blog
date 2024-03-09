@@ -2,47 +2,26 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogPost from '../../components/BlogPost.astro';
 
-// Define interfaces for the data shapes
-interface Post {
-  title: string;
-  url: string;
-  frontmatter: {
-    title: string;
-    tags: string[];
-  };
-}
+export async function getStaticPaths() {
+  const allPosts = await Astro.glob('../posts/*.md');
 
-interface StaticPath {
-  params: {
-    tag: string;
-  };
-}
-
-// Add type annotations to variables and functions
-export async function getStaticPaths(): Promise<StaticPath[]> {
-  const allPosts: Post[] = (await Astro.glob('../posts/*.md')).map(
-    (instance) => ({
-      title: instance.data.title,
-      url: instance.url,
-      frontmatter: {
-        title: instance.data.title,
-        tags: instance.data.tags,
-      },
-    })
-  );
-
-  const uniqueTags: string[] = [
-    ...new Set(allPosts.flatMap((post) => post.frontmatter.tags)),
+  const uniqueTags = [
+    ...new Set(allPosts.map((post) => post.frontmatter.tags).flat()),
   ];
 
-  return uniqueTags.map((tag) => ({
-    params: {
-      tag,
-    },
-  }));
+  return uniqueTags.map((tag) => {
+    const filteredPosts = allPosts.filter((post) =>
+      post.frontmatter.tags.includes(tag)
+    );
+    return {
+      params: { tag },
+      props: { posts: filteredPosts },
+    };
+  });
 }
 
-const { tag, posts }: { tag: string; posts: Post[] } = Astro.props;
+const { tag } = Astro.params;
+const { posts } = Astro.props;
 ---
 
 <BaseLayout pageTitle={tag}>
