@@ -1,18 +1,27 @@
 <script>
   import { onMount } from 'svelte';
 
-  let messages = [];
-  let greeting = '';
+  export function Greeting({ messages }) {
+    let greeting = messages[0];
 
-  const randomMessage = () => {
-    greeting = messages[Math.floor(Math.random() * messages.length)];
+    const randomMessage = () => {
+      greeting = messages[Math.floor(Math.random() * messages.length)];
+    };
+
+    const setGreeting = () => {
+      randomMessage();
+    };
+
+    onMount(() => {
+      randomMessage();
+    });
+
+    return {
+      greeting,
+      setGreeting
+    };
   }
-
-  onMount(() => {
-    randomMessage();
-  });
 </script>
-
 <dialog open>
   <article>
     <header>
