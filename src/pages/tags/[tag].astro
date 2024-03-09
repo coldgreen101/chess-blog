@@ -2,33 +2,10 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BlogPost from '../../components/BlogPost.astro';
 
-interface Frontmatter {
-  title: string;
-  tags: string[];
-}
-
-interface Post {
-  url: string;
-  frontmatter: Frontmatter;
-}
-
-interface Params {
-  tag: string;
-}
-
-interface Props {
-  posts: Post[];
-}
-
 export async function getStaticPaths() {
-  const allPosts: Post[] = (await Astro.glob('../posts/*.md'))
-    .filter((postInstance) => postInstance.url) // Filter out items where url is undefined
-    .map((postInstance) => ({
-      url: postInstance.url!,
-      frontmatter: postInstance.frontmatter,
-    }));
+  const allPosts = await Astro.glob('../posts/*.md');
 
-  const uniqueTags: string[] = [
+  const uniqueTags = [
     ...new Set(allPosts.map((post) => post.frontmatter.tags).flat()),
   ];
 
@@ -43,14 +20,17 @@ export async function getStaticPaths() {
   });
 }
 
-const { tag }: Params = Astro.params;
-const { posts }: Props = Astro.props;
+const { tag } = Astro.params;
+const { posts } = Astro.props;
 ---
+
 <BaseLayout pageTitle={tag}>
   <p>Posts tagged with {tag}</p>
   <ul>
-    {posts.map((post: Post) => (
-      <BlogPost url={post.url} title={post.frontmatter.title} />
-    ))}
+    {
+      posts.map((post: Post) => (
+        <BlogPost url={post.url} title={post.frontmatter.title} />
+      ))
+    }
   </ul>
 </BaseLayout>
