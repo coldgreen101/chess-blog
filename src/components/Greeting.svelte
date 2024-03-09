@@ -1,35 +1,17 @@
-<script>
-  import { onMount } from 'svelte';
+import { useState } from 'preact/hooks';
 
-  export function Greeting({ messages }) {
-    let greeting = messages[0];
+export default function Greeting({messages}) {
 
-    const randomMessage = () => {
-      greeting = messages[Math.floor(Math.random() * messages.length)];
-    };
+  const randomMessage = () => messages[(Math.floor(Math.random() * messages.length))];
 
-    const setGreeting = () => {
-      randomMessage();
-    };
+  const [greeting, setGreeting] = useState(messages[0]);
 
-    onMount(() => {
-      randomMessage();
-    });
-
-    return {
-      greeting,
-      setGreeting
-    };
-  }
-</script>
-<dialog open>
-  <article>
-    <header>
-      <button aria-label="Close" rel="prev"></button>
-      <h3>
-        <strong>{greeting}! Thank You for visiting!</strong>
-      </h3>
-    </header>
-    <button on:click={randomMessage}>New Greeting</button>
-  </article>
-</dialog>
+  return (
+    <div>
+      <h3>{greeting}! Thank you for visiting!</h3>
+      <button onClick={() => setGreeting(randomMessage())}>
+        New Greeting
+      </button>
+    </div>
+  );
+}
