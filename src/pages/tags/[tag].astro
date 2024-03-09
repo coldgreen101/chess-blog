@@ -16,8 +16,8 @@ export async function getStaticPaths(): any {
     ),
   ];
 
-  return uniqueTags.map((tag: any) => {
-    const filteredPosts = allPosts.filter((post) =>
+  return uniqueTags.map((tag: any): {params: {tag: any;}; props: {MarkdownInstance<Record<string, any>>[];}; => {
+    const filteredPosts = allPosts.filter((post: any): any =>
       post.frontmatter.tags.includes(tag)
     );
     return {
@@ -35,7 +35,7 @@ const { posts } = Astro.props;
   <p>Posts tagged with {tag}</p>
   <ul>
     {
-      posts.map((post) => (
+      posts.map((post: any): any => (
         <BlogPost url={post.url} title={post.frontmatter.title} />
       ))
     }
