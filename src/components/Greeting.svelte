@@ -4,16 +4,17 @@
 
   export let messages;
 
+  const randomMessage = () =>
+    messages[Math.floor(Math.random() * messages.length)];
   const greeting = writable(messages[0]);
 
-  const randomMessage = () => {
-    const randomIndex = Math.floor(Math.random() * messages.length);
-    greeting.set(messages[randomIndex]);
-  };
-
   onMount(() => {
-    randomMessage();
+    greeting.set(messages[0]);
   });
+
+  function setGreeting() {
+    greeting.set(randomMessage());
+  }
 </script>
 
 <dialog open>
@@ -22,6 +23,6 @@
       <button aria-label="Close" rel="prev"></button>
       <h3><strong>{$greeting}! Thank You for Visiting!</strong></h3>
     </header>
-    <button onClick={randomMessage}> New Greeting </button>
+    <button on:click={setGreeting}> New Greeting </button>
   </article>
 </dialog>
