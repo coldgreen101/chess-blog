@@ -8,8 +8,9 @@
     const randomIndex = Math.floor(Math.random() * messages.length);
     if messages[randomIndex] == greeting {
       greeting = messages[randomIndex]
+    } else {
+      greeting = messages[0];
     }
-    greeting = messages[randomIndex];
   };
 
   onMount(() => {
