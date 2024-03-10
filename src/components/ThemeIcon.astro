@@ -53,7 +53,8 @@
   const moonIcon = document.querySelector('.moon');
   const htmlElement = document.documentElement;
 
-  const applyTheme = () => {
+  document.addEventListener('astro:page-load', () => {
+    const applyTheme = () => {
     const currentTheme = localStorage.getItem('theme');
     const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
       .matches
@@ -95,4 +96,6 @@
 
   // Apply stored theme preference on page load
   document.addEventListener('DOMContentLoaded', applyTheme);
+  });
+
 </script>
