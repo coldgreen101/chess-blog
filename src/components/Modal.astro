@@ -1,9 +1,20 @@
 ---
 
 function closeDialog() {
-  const dialog = document.querySelector('dialog');
-  dialog.close();
-}
+    const dialog = document.getElementById('myModal');
+    dialog.close();
+    // Store in local storage that the modal has been closed
+    localStorage.setItem('modalClosed', 'true');
+  }
+
+  // Check if the modal should be shown
+  document.addEventListener('DOMContentLoaded', function () {
+    const shouldShowModal = !localStorage.getItem('modalClosed');
+    if (shouldShowModal) {
+      const dialog = document.getElementById('myModal');
+      dialog.showModal();
+    }
+  });
 ---
 
 <dialog open>
