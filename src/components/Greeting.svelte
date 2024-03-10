@@ -21,5 +21,8 @@
   export { closeDialog } from './Modal.astro';
 </script>
 
-<div id="modal"></div>
+<script>
+  import Modal from './Modal.astro';
+</script>
+
 
