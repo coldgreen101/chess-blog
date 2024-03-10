@@ -23,9 +23,36 @@
     background: none;
   }
 
-  .sun { fill: black; }
-  .moon { fill: transparent; }
+  .sun {
+    fill: black;
+  }
+  .moon {
+    fill: transparent;
+  }
 
-  :global(.dark) .sun { fill: transparent; }
-  :global(.dark) .moon { fill: white; }
+  :global(.dark) .sun {
+    fill: transparent;
+  }
+  :global(.dark) .moon {
+    fill: white;
+  }
 </style>
+
+<script>
+  const themeToggle = document.getElementById('themeToggle');
+  const sunIcon = document.querySelector('.sun');
+  const moonIcon = document.querySelector('.moon');
+  const htmlElement = document.querySelector('html');
+
+  themeToggle.addEventListener('click', () => {
+    if (htmlElement.getAttribute('data-theme') === 'light') {
+      htmlElement.setAttribute('data-theme', 'dark');
+      sunIcon.style.fill = 'transparent';
+      moonIcon.style.fill = 'white';
+    } else {
+      htmlElement.setAttribute('data-theme', 'light');
+      sunIcon.style.fill = 'black';
+      moonIcon.style.fill = 'transparent';
+    }
+  });
+</script>
