@@ -1,5 +1,5 @@
 body {
-    font-family: 'Inconsolata', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
 }
 
 h1,
@@ -8,60 +8,59 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Karla', serif;
+  font-family: 'Karla', serif;
 }
 
 /* nav styles */
 .hamburger {
-    padding-right: 20px;
-    cursor: pointer;
+  padding-right: 20px;
+  cursor: pointer;
 }
 
 .hamburger .line {
-    display: block;
-    width: 35px;
-    height: 3px;
-    margin-bottom: 10px;
-    background-color: #fff;
+  display: block;
+  width: 35px;
+  height: 3px;
+  margin-bottom: 10px;
+  background-color: #fff;
 }
 
-
 .nav-links {
-    width: 100%;
-    top: 5rem;
-    left: 48px;
-    display: none;
-    margin: 0;
+  width: 100%;
+  top: 5rem;
+  left: 48px;
+  display: none;
+  margin: 0;
 }
 
 ul.nav-links li a {
-    display: block;
-    text-align: center;
-    padding: 10px 0;
-    text-decoration: none;
-    font-weight: bold;
-    text-transform: uppercase;
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 
 .expanded {
-    display: unset;
+  display: unset;
 }
 
 @media screen and (min-width: 636px) {
-    .nav-links {
-        margin-left: 5em;
-        display: block;
-        position: static;
-        width: auto;
-        background: none;
-    }
+  .nav-links {
+    margin-left: 5em;
+    display: block;
+    position: static;
+    width: auto;
+    background: none;
+  }
 
-    ul.nav-links li a {
-        display: inline-block;
-        padding: 16px 20px;
-    }
+  ul.nav-links li a {
+    display: inline-block;
+    padding: 16px 20px;
+  }
 
-    .hamburger {
-        display: none;
-    }
+  .hamburger {
+    display: none;
+  }
 }
