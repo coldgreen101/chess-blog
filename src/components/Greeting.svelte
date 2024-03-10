@@ -28,4 +28,6 @@
   </article>
 </dialog>
 
-<Modal {greeting} {setGreeting} />
+{#if typeof window !== 'undefined'}
+  <Modal {greeting} {setGreeting} /> <!-- Render Modal component only on the client-side -->
+{/if}
