@@ -1,7 +1,6 @@
 <script>
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
-  import Modal from './Modal.astro';
 
   export let messages;
 
@@ -16,16 +15,21 @@
   function setGreeting() {
     greeting.set(randomMessage());
   }
+
+  function closeDialog() {
+    const dialog = document.querySelector('dialog');
+    dialog.close();
+  }
 </script>
 
 <dialog open>
   <article>
     <header>
-      <button aria-label="Close" rel="prev"></button>
-      <h3><strong>{$greeting}! Thank you for visiting!</strong></h3>
+      <button aria-label="Close" rel="prev" on:click={closeDialog}></button>
+      <h3>
+        <strong>{$greeting}! Thank you for visiting!</strong>
+      </h3>
     </header>
     <button on:click={setGreeting}> New Greeting</button>
   </article>
 </dialog>
-
-<Modal {greeting} {setGreeting} />
