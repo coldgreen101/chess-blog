@@ -21,12 +21,8 @@
   <article>
     <header>
       <button aria-label="Close" rel="prev"></button>
-      <p>
-        <strong>🗓️ Thank You for Registering!</strong>
-      </p>
+      <h3><strong>{$greeting}! Thank you for visiting!</strong></h3>
     </header>
-    <button>
-      New Greeting
-    </button>
+    <button on:click={setGreeting}> New Greeting </button>
   </article>
 </dialog>
