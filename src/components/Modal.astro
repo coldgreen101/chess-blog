@@ -1,1 +1,21 @@
+---
+import { setGreeting } from './Greeting.svelte';
+---
+
+<dialog open>
+  <article>
+    <header>
+      <button aria-label="Close" rel="prev" on:click={() =>closeDialog()}></button>
+      <h3><strong>{$greeting}! Thank you for visiting!</strong></h3>
+    </header>
+    <button on:click={setGreeting}> New Greeting</button>
+  </article>
+</dialog>
+
+<script>
+  function closeDialog() {
+    const modal = document.querySelector('dialog');
+    dialog.close();
+  }
+</script>
 
