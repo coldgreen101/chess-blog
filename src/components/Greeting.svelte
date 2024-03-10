@@ -15,14 +15,16 @@
   function setGreeting() {
     greeting.set(randomMessage());
   }
+
+  $: currentGreeting = $greeting; // Ensure reactivity
 </script>
 
 <dialog open>
   <article>
     <header>
       <button aria-label="Close" rel="prev"></button>
-      <h3><strong>{$greeting}! Thank You for Visiting!</strong></h3>
+      <h3><strong>{$currentGreeting}! Thank You for Visiting!</strong></h3>
     </header>
-    <button on:click={setGreeting}> New Greeting </button>
+    <button on:click={setGreeting}>New Greeting</button>
   </article>
 </dialog>
