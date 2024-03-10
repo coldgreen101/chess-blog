@@ -61,34 +61,22 @@
     if (currentTheme === 'dark') {
       sunIcon.style.fill = 'transparent';
       moonIcon.style.fill = 'white';
-      document.body.style.visibility = 'visible'; // Prevent FOUC
-    } else {
-      document.body.style.visibility = 'hidden'; // Hide content to prevent FOUC
     }
   }
-
-  // Apply theme immediately on page load
-  if (currentTheme === 'dark') {
-    sunIcon.style.fill = 'transparent';
-    moonIcon.style.fill = 'white';
-  }
-
-  // Show content after styles are applied
-  document.addEventListener('DOMContentLoaded', () => {
-    document.body.style.visibility = 'visible';
-  });
 
   themeToggle.addEventListener('click', () => {
     if (htmlElement.getAttribute('data-theme') === 'light') {
       htmlElement.setAttribute('data-theme', 'dark');
       sunIcon.style.fill = 'transparent';
       moonIcon.style.fill = 'white';
-      localStorage.setItem('theme', 'dark'); // Store theme preference in local storage
+      // Store theme preference in local storage
+      localStorage.setItem('theme', 'dark');
     } else {
       htmlElement.setAttribute('data-theme', 'light');
       sunIcon.style.fill = 'black';
       moonIcon.style.fill = 'transparent';
-      localStorage.setItem('theme', 'light'); // Store theme preference in local storage
+      // Store theme preference in local storage
+      localStorage.setItem('theme', 'light');
     }
   });
 </script>
