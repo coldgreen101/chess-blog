@@ -49,28 +49,14 @@
 </style>
 
 <script>
-  const themeToggle = document.getElementById('themeToggle');
-  const sunIcon = document.querySelector('.sun');
-  const moonIcon = document.querySelector('.moon');
-  const htmlElement = document.documentElement;
-
   const currentTheme = localStorage.getItem('theme');
   const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
     ? 'dark'
     : 'light';
+  const htmlElement = document.documentElement;
 
-  if (currentTheme) {
-    htmlElement.setAttribute('data-theme', currentTheme);
-    if (currentTheme === 'dark') {
-      sunIcon.style.fill = 'transparent';
-      moonIcon.style.fill = 'white';
-    }
-  } else {
-    htmlElement.setAttribute('data-theme', systemTheme);
-    if (systemTheme === 'dark') {
-      sunIcon.style.fill = 'transparent';
-      moonIcon.style.fill = 'white';
-    }
+  if (!htmlElement.hasAttribute('data-theme')) {
+    htmlElement.setAttribute('data-theme', currentTheme || systemTheme);
   }
 
   const handleToggleClick = () => {
@@ -88,6 +74,4 @@
       localStorage.setItem('theme', 'dark');
     }
   };
-
-  themeToggle.addEventListener('click', handleToggleClick);
 </script>
