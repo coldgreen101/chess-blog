@@ -49,6 +49,8 @@
 </style>
 
 <script>
+  const sunIcon = document.querySelector('.sun');
+  const moonIcon = document.querySelector('.moon');
   const currentTheme = localStorage.getItem('theme');
   const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
     ? 'dark'
