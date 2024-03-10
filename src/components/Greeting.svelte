@@ -1,7 +1,6 @@
 <script>
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
-  import { Modal } from './Modal.astro';
 
   export let messages;
 
@@ -17,11 +16,3 @@
     greeting.set(randomMessage());
   }
 </script>
-
-{#if typeof window !== 'undefined'}
-  <script>
-    import Modal from './Modal.astro';
-  </script>
-
-  <Modal />
-{/if}
