@@ -1,17 +1,21 @@
 <script>
-  import { onMount } from 'svelte';
+  export default function Greeting({ messages }) {
+    const randomMessage = () =>
+      messages[Math.floor(Math.random() * messages.length)];
+    const [greeting, setGreeting] = messages[0];
 
-  export let messages;
-
-  function getRandomIndex() {
-    return Math.floor(Math.random() * messages.length);
-  }
-
-  let randomIndex = getRandomIndex();
-  let greeting = messages[randomIndex];
-
-  function changeGreeting() {
-    randomIndex = getRandomIndex();
-    greeting = messages[randomIndex]
+    return (
+      <dialog open>
+        <article>
+          <header>
+            <button aria-label="Close" rel="prev"></button>
+            <h3>{greeting}<strong>Thank You for Visiting!</strong></h3>
+          </header>
+          <button onClick={() => setGreeting(randomMessage())}>
+            New Greeting
+          </button>
+        </article>
+      </dialog>
+    );
   }
 </script>
