@@ -18,7 +18,7 @@
   <article>
     <header>
       <button aria-label="Close" rel="prev"></button>
-      <h3>{greeting}<strong>Thank You for Visiting!</strong></h3>
+      <h3><strong>{greeting}! Thank You for Visiting!</strong></h3>
     </header>
     <button onClick={randomMessage}> New Greeting </button>
   </article>
