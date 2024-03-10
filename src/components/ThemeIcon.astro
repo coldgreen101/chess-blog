@@ -95,4 +95,9 @@
 
   // Apply stored theme preference after all content has loaded
   window.addEventListener('load', applyTheme);
+
+  // Optionally, re-apply theme on navigation events for SPA or similar setups
+  // Below examples are generic; adjust them to fit your navigation system
+  window.addEventListener('popstate', applyTheme); // For History API
+  window.addEventListener('hashchange', applyTheme); // For hash-based routing
 </script>
