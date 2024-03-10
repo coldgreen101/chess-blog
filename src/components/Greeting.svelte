@@ -4,9 +4,10 @@
 
   export let messages;
 
+  let greeting = writable(messages[0]);
+
   const randomMessage = () =>
     messages[Math.floor(Math.random() * messages.length)];
-  const greeting = writable(messages[0]);
 
   onMount(() => {
     greeting.set(messages[0]);
@@ -16,7 +17,7 @@
     greeting.set(randomMessage());
   }
 
-  $: currentGreeting = $greeting; // Ensure reactivity
+  $: currentGreeting = $greeting;
 </script>
 
 <dialog open>
