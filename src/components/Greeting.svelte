@@ -17,12 +17,12 @@
   }
 </script>
 
-<script context="module">
-  export { closeDialog } from './Modal.astro';
-</script>
-
-<script>
-  import Modal from './Modal.astro';
-</script>
-
-
+<dialog open>
+  <article>
+    <header>
+      <button aria-label="Close" rel="prev"></button>
+      <h3><strong>{$greeting}! Thank you for visiting!</strong></h3>
+    </header>
+    <button on:click={setGreeting}> New Greeting</button>
+  </article>
+</dialog>
