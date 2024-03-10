@@ -6,7 +6,7 @@
 
   const randomMessage = () => {
     const randomIndex = Math.floor(Math.random() * messages.length);
-    greeting.set(messages[randomIndex]);
+    greeting = messages[randomIndex];
   };
 
   onMount(() => {
