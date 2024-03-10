@@ -1,5 +1,5 @@
 <script>
-import { onMount } from 'svelte';
+  import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
 
   export let messages;
@@ -20,7 +20,7 @@ import { onMount } from 'svelte';
   <article>
     <header>
       <button aria-label="Close" rel="prev"></button>
-      <h3><strong>{greeting}! Thank You for Visiting!</strong></h3>
+      <h3><strong>{$greeting}! Thank You for Visiting!</strong></h3>
     </header>
     <button on:click={randomMessage}> New Greeting </button>
   </article>
