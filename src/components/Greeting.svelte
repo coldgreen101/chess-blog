@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
+  import Modal from './Modal.astro';
 
   export let messages;
 
