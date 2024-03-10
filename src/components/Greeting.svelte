@@ -2,11 +2,13 @@
   export let messages;
 
   import { onMount } from 'svelte';
-  let greeting = messages[0];
+  import { writable } from 'svelte/store';
+
+  const greeting = writable(messages[0]);
 
   const randomMessage = () => {
     const randomIndex = Math.floor(Math.random() * messages.length);
-    greeting = messages[randomIndex];
+    greeting.set(messages[randomIndex]);
   };
 
   onMount(() => {
