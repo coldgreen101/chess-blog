@@ -1,12 +1,14 @@
 <script>
+import { onMount } from 'svelte';
+  import { writable } from 'svelte/store';
+
   export let messages;
 
-  import { onMount } from 'svelte';
-  let greeting = messages[0];
+  const greeting = writable(messages[0]);
 
   const randomMessage = () => {
     const randomIndex = Math.floor(Math.random() * messages.length);
-    greeting = messages[randomIndex];
+    greeting.set(messages[randomIndex]);
   };
 
   onMount(() => {
@@ -20,6 +22,6 @@
       <button aria-label="Close" rel="prev"></button>
       <h3><strong>{greeting}! Thank You for Visiting!</strong></h3>
     </header>
-    <button onClick={randomMessage}> New Greeting </button>
+    <button on:click={randomMessage}> New Greeting </button>
   </article>
 </dialog>
