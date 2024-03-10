@@ -12,9 +12,9 @@ import { setGreeting } from './Greeting.svelte';
   </article>
 </dialog>
 
-<script>
-  function closeDialog() {
-    const modal = document.querySelector('dialog');
+<script context="module">
+  export function closeDialog() {
+    const dialog = document.querySelector('dialog');
     dialog.close();
   }
 </script>

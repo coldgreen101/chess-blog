@@ -1,7 +1,6 @@
 <script>
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
-  import Modal from './Modal.astro';
 
   export let messages;
 
@@ -22,4 +21,5 @@
   export { closeDialog } from './Modal.astro';
 </script>
 
-<Modal />
+<div id="modal"></div>
+
