@@ -6,6 +6,9 @@
 
   const randomMessage = () => {
     const randomIndex = Math.floor(Math.random() * messages.length);
+    if messages[randomIndex] == greeting {
+      greeting = messages[randomIndex]
+    }
     greeting = messages[randomIndex];
   };
 
