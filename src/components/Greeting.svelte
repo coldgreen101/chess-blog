@@ -18,4 +18,8 @@
   }
 </script>
 
+<script context="module">
+  export { closeDialog } from './Modal.astro';
+</script>
+
 <Modal />
