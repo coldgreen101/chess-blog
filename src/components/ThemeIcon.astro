@@ -54,15 +54,29 @@
   const moonIcon = document.querySelector('.moon');
   const htmlElement = document.querySelector('html');
 
+  // Check for theme preference in local storage
+  const currentTheme = localStorage.getItem('theme');
+  if (currentTheme) {
+    htmlElement.setAttribute('data-theme', currentTheme);
+    if (currentTheme === 'dark') {
+      sunIcon.style.fill = 'transparent';
+      moonIcon.style.fill = 'white';
+    }
+  }
+
   themeToggle.addEventListener('click', () => {
     if (htmlElement.getAttribute('data-theme') === 'light') {
       htmlElement.setAttribute('data-theme', 'dark');
       sunIcon.style.fill = 'transparent';
       moonIcon.style.fill = 'white';
+      // Store theme preference in local storage
+      localStorage.setItem('theme', 'dark');
     } else {
       htmlElement.setAttribute('data-theme', 'light');
       sunIcon.style.fill = 'black';
       moonIcon.style.fill = 'transparent';
+      // Store theme preference in local storage
+      localStorage.setItem('theme', 'light');
     }
   });
 </script>
