@@ -93,6 +93,6 @@
   const themeToggle = document.getElementById('themeToggle');
   themeToggle.addEventListener('click', handleToggleClick);
 
-  // Apply stored theme preference on page load
-  document.addEventListener('DOMContentLoaded', applyTheme);
+  // Apply stored theme preference after all content has loaded
+  window.addEventListener('load', applyTheme);
 </script>
