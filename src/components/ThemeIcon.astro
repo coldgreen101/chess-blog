@@ -49,24 +49,22 @@
 </style>
 
 <script>
-  import { onMount } from 'svelte';
-  import { localStorageTheme } from '$lib/theme'; // Assuming a utility file is used for localStorage interaction
-
-  let sunIcon;
-  let moonIcon;
-  let htmlElement = document.documentElement;
+  const sunIcon = document.querySelector('.sun');
+  const moonIcon = document.querySelector('.moon');
+  const htmlElement = document.documentElement;
 
   const applyTheme = () => {
-    const currentTheme = localStorageTheme.get();
+    const currentTheme = localStorage.getItem('theme');
     const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
       .matches
       ? 'dark'
       : 'light';
-    const selectedTheme = currentTheme || systemTheme;
 
-    htmlElement.setAttribute('data-theme', selectedTheme);
+    if (!htmlElement.hasAttribute('data-theme')) {
+      htmlElement.setAttribute('data-theme', currentTheme || systemTheme);
+    }
 
-    if (selectedTheme === 'dark') {
+    if (htmlElement.getAttribute('data-theme') === 'dark') {
       sunIcon.style.fill = 'transparent';
       moonIcon.style.fill = 'white';
     } else {
@@ -82,18 +80,19 @@
       htmlElement.setAttribute('data-theme', 'light');
       sunIcon.style.fill = 'black';
       moonIcon.style.fill = 'transparent';
-      localStorageTheme.set('light');
+      localStorage.setItem('theme', 'light');
     } else {
       htmlElement.setAttribute('data-theme', 'dark');
       sunIcon.style.fill = 'transparent';
       moonIcon.style.fill = 'white';
-      localStorageTheme.set('dark');
+      localStorage.setItem('theme', 'dark');
     }
   };
 
-  onMount(() => {
-    sunIcon = document.querySelector('.sun');
-    moonIcon = document.querySelector('.moon');
-    applyTheme();
-  });
+  // Add event listener to the theme toggle button
+  const themeToggle = document.getElementById('themeToggle');
+  themeToggle.addEventListener('click', handleToggleClick);
+
+  // Apply stored theme preference after all content has loaded
+  window.addEventListener('load', applyTheme);
 </script>
