@@ -53,18 +53,26 @@
   const moonIcon = document.querySelector('.moon');
   const htmlElement = document.documentElement;
 
-  // Retrieve the current theme from local storage or system preference
-  const currentTheme = localStorage.getItem('theme');
-  const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches
-    ? 'dark'
-    : 'light';
+  const applyTheme = () => {
+    const currentTheme = localStorage.getItem('theme');
+    const systemTheme = window.matchMedia('(prefers-color-scheme: dark)')
+      .matches
+      ? 'dark'
+      : 'light';
 
-  // Set the initial theme based on local storage or system preference
-  if (!htmlElement.hasAttribute('data-theme')) {
-    htmlElement.setAttribute('data-theme', currentTheme || systemTheme);
-  }
+    if (!htmlElement.hasAttribute('data-theme')) {
+      htmlElement.setAttribute('data-theme', currentTheme || systemTheme);
+    }
 
-  // Function to handle theme toggle
+    if (htmlElement.getAttribute('data-theme') === 'dark') {
+      sunIcon.style.fill = 'transparent';
+      moonIcon.style.fill = 'white';
+    } else {
+      sunIcon.style.fill = 'black';
+      moonIcon.style.fill = 'transparent';
+    }
+  };
+
   const handleToggleClick = () => {
     const isDarkMode = htmlElement.getAttribute('data-theme') === 'dark';
 
@@ -85,12 +93,6 @@
   const themeToggle = document.getElementById('themeToggle');
   themeToggle.addEventListener('click', handleToggleClick);
 
-  // Check for stored theme preference and apply it on page load
-  if (currentTheme === 'dark') {
-    sunIcon.style.fill = 'transparent';
-    moonIcon.style.fill = 'white';
-  } else {
-    sunIcon.style.fill = 'black';
-    moonIcon.style.fill = 'transparent';
-  }
+  // Apply stored theme preference on page load
+  document.addEventListener('DOMContentLoaded', applyTheme);
 </script>
