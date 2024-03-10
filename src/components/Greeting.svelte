@@ -1,6 +1,7 @@
 <script>
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
+  import Modal from './Modal.astro';
 
   export let messages;
 
@@ -26,3 +27,5 @@
     <button on:click={setGreeting}> New Greeting</button>
   </article>
 </dialog>
+
+<Modal {greeting} {setGreeting} />
