@@ -19,7 +19,7 @@ c) I didn't calculate deeply enough at critical moments (over-confidence), givin
 
 ## Analysis
 
-**1. d4 d5 2. Nf3 Nf6 3. e3**
+1. **d4 d5** 2. **Nf3 Nf6** 3. **e3**
 
 ---
 
@@ -36,7 +36,7 @@ TODO: Learn and quiz Colle lines on Chessable.
 
 Typical pawn move in this structure to control more of the center!
 
-**4. b3**
+4. **b3**
 
 ---
 
