@@ -40,7 +40,7 @@ Typical pawn move in this structure to control more of the center!
 
 ---
 
-5. Bb2 Bf5
+5. **Bb2 Bf5**
    - Developing bishop outside pawn chain.
 
 6. Bd3 Bg6
