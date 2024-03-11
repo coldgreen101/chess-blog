@@ -1,7 +1,8 @@
 ---
+
 ---
 
-<div class="hamburger" onclick="toggleMenu()">
+<div class="hamburger" on:click={toggleMenu}>
   <span class="line"></span>
   <span class="line"></span>
   <span class="line"></span>
@@ -9,7 +10,7 @@
 
 <script>
   function toggleMenu() {
-  const hamburger = document.querySelector('.hamburger');
-  hamburger.classList.toggle('clicked');
-}
+    const hamburger = document.querySelector('.hamburger');
+    hamburger.classList.toggle('clicked');
+  }
 </script>
