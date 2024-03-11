@@ -26,7 +26,7 @@ I have only played against this line once before, and in this game I was out of 
 
 TODO: Learn and quiz Colle lines on Chessable.
 
-**...c5!**
+<span style="color:"**...c5!**
 
 ## Game Replay
 
