@@ -4,7 +4,7 @@ pubDate: 2024-03-11
 description: 'Game analysis of my 7th round :)'
 author: 'Grkinic, Domjan'
 image:
-  url: 'https://docs.astro.build/assets/full-logo-light.png'
+  url: '../../../public/game_analysis.jpeg'
   alt: 'The full Astro logo.'
 tags: ['analysis', 'league', 'OTB', 'Colle System']
 ---
