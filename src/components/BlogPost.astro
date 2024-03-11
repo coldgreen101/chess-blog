@@ -7,11 +7,20 @@ const { title, url } = Astro.props;
 </div>
 
 <style>
-  .post-link {
+  article {
+    padding: 2em;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+ .post-link {
     list-style: none;
+    margin: 0;
+    padding: 0;
   }
 
   .post-link a {
     text-decoration: none;
+    font-weight: bold;
   }
 </style>
