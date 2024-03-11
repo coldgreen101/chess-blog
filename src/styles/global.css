@@ -1,3 +1,4 @@
+/* Typography */
 body {
   font-family: 'Inconsolata', sans-serif;
 }
@@ -11,12 +12,13 @@ h6 {
   font-family: 'Karla', serif;
 }
 
+/* Header */
 .header-flex {
   display: flex;
   align-items: center;
 }
 
-/* nav styles */
+/* Navigation */
 .hamburger {
   padding-right: 20px;
   cursor: pointer;
@@ -27,22 +29,19 @@ h6 {
   width: 35px;
   height: 3px;
   margin-bottom: 10px;
-  background-color: #fff;
+  background-color: #fff; /* Consider using CSS variables */
   transition: transform 0.3s ease;
 }
 
-/* Rotate first and third lines */
 .hamburger.active .line:nth-child(1),
 .hamburger.active .line:nth-child(3) {
   transform: rotate(45deg);
 }
 
-/* Hide middle line when active */
 .hamburger.active .line:nth-child(2) {
   opacity: 0;
 }
 
-/* Rotate back the first and third lines */
 .hamburger.active .line:nth-child(1),
 .hamburger.active .line:nth-child(3) {
   transform: rotate(-45deg);
@@ -69,6 +68,7 @@ ul.nav-links li a {
   display: unset;
 }
 
+/* Media Queries */
 @media screen and (min-width: 636px) {
   .nav-links {
     margin-left: 5em;
