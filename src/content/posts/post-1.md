@@ -26,7 +26,16 @@ I have only played against this line once before, and in this game I was out of 
 
 TODO: Learn and quiz Colle lines on Chessable.
 
-<span style="color:"**...c5!**
+<span style="color: #00895A">**...c5!**</span>
+
+---
+
+Typical pawn move in this structure to control more of the center!
+
+**4. b3**
+
+---
+
 
 ## Game Replay
 
