@@ -50,43 +50,37 @@
 
 <script>
   document.addEventListener('astro:page-load', () => {
-    const theme = (() => {
-      if (
-        typeof localStorage !== 'undefined' &&
-        localStorage.getItem('theme')
-      ) {
-        return localStorage.getItem('theme');
-      }
-      if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        return 'dark';
-      }
-      return 'light';
-    })();
+    const themeToggle = document.getElementById('themeToggle');
+    let currentTheme =
+      localStorage.getItem('theme') ||
+      (window.matchMedia('(prefers-color-scheme: dark)').matches
+        ? 'dark'
+        : 'light');
 
-    if (theme === 'light') {
-      document.documentElement.setAttribute('data-theme', 'light');
-    } else {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
+    const toggleTheme = () => {
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', newTheme);
+      localStorage.setItem('theme', newTheme);
+      currentTheme = newTheme;
+      updateIcon();
+    };
 
-    window.localStorage.setItem('theme', theme);
+    const updateIcon = () => {
+      const sunIcon = document.querySelector('.sun');
+      const moonIcon = document.querySelector('.moon');
 
-    const handleToggleClick = () => {
-      const element = document.documentElement;
-      const currentTheme = localStorage.getItem('theme');
-
-      if (currentTheme === 'light') {
-        element.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
+      if (currentTheme === 'dark') {
+        sunIcon.style.fill = 'transparent';
+        moonIcon.style.fill = 'white';
       } else {
-        element.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light');
+        sunIcon.style.fill = 'black';
+        moonIcon.style.fill = 'transparent';
       }
     };
 
-    document
-      .getElementById('themeToggle')
-      .addEventListener('click', handleToggleClick);
+    themeToggle.addEventListener('click', toggleTheme);
+
+    updateIcon();
   });
 </script>
 
