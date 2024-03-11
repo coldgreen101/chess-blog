@@ -31,18 +31,6 @@ h6 {
   transition: transform 0.3s ease;
 }
 
-.clicked .line:nth-child(1) {
-  transform: translateY(8px) rotate(45deg); /* Rotate and move the first line */
-}
-
-.clicked .line:nth-child(2) {
-  opacity: 0; /* Hide the second line */
-}
-
-.clicked .line:nth-child(3) {
-  transform: translateY(-8px) rotate(-45deg); /* Rotate and move the third line */
-}
-
 .nav-links {
   width: 100%;
   top: 5rem;
