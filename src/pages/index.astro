@@ -5,6 +5,11 @@ const pageTitle = 'Gambit Chronicles';
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <h2>My awesome blog subtitle</h2>
+  <blockquote>
+    “Sometimes you win, sometimes you learn.”
+    <footer>
+      <cite>— John Maxwell</cite>
+    </footer>
+  </blockquote>
   <Greeting client:load messages={["Hej", "Hallo", "Hola", "Habari"]} />
 </BaseLayout>
