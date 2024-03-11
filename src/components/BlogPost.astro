@@ -12,6 +12,10 @@ const { title, url } = Astro.props;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
+  .grid {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+  }
 
  .post-link {
     list-style: none;
