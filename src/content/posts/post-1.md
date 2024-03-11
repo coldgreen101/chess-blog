@@ -18,7 +18,15 @@ c) I didn't calculate deeply enough at critical moments (over-confidence), givin
 
 ## Analysis
 
-**1. d4 d5**
+**1. d4 d5 2. Nf3 Nf6 3. e3**
+
+---
+
+I have only played against this line once before, and in this game I was out of book from this point on.
+
+TODO: Learn and quiz Colle lines on Chessable.
+
+**...c5!**
 
 ## Game Replay
 
