@@ -1,10 +1,10 @@
 ---
-const { title, url, img } = Astro.props;
+const { title, url, image, alt } = Astro.props;
 ---
 
 <div class="grid">
   <article>
-    <img
+    <img src={image} alt={alt} />
     <li><a href={url}>{title}</a></li>
   </article>
 </div>
