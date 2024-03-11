@@ -3,9 +3,7 @@ const { title, url } = Astro.props;
 ---
 
 <div class="grid">
-  <article>
-    <li class="post-link"><a href={url}>{title}</a></li>
-  </article>
+  <div><article><li class="post-link"><a href={url}>{title}</a></li></article></div>
 </div>
 
 <style>
