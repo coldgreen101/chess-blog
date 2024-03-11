@@ -44,7 +44,7 @@ I have never encountered this 4. b3 line before. Initially, I thought it is quit
 According to Toth's Chessable course the immediate ...cxd4! is the right approach.
 The explanation being: "This is a rare example when releasing tension in the center is benefiting us. After the trade, the bishop on b2 will be biting into granite, having no real prospects!"
 
-Example Chessable variation: (4...<span style="color: #00895A">cxd4!</span> 5. exd4 (5. <span style="color: #FF9500">Nxd4?</span> Note: A mistake due to <span style="color: #00895A">...e5!</span> 6. Nf3 Nc6∓ and Black dominates the center! Plan of ...Bg4, ...Bd6))
+Example Chessable variation: (4...<span style="color: #00895A">cxd4!</span> 5. exd4 (5. <span style="color: #FF9500">Nxd4?</span> Note: A mistake due to <span style="color: #00895A">...e5!</span> 6. Nf3 Nc6∓ "and Black dominates the center! Plan of ...Bg4, ...Bd6 and ...O-O gives Black a great position.") ...Nc6 6. Bd3 (denying ...Bf5) ...<span style="color: #00895A">Bg4!</span> 7. Bb2 <span style="color: #00895A">Qa5+!</span>)
 
 5. **Bb2 Bf5**
 
