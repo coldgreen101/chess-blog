@@ -51,7 +51,10 @@
 <script>
   document.addEventListener('astro:page-load', () => {
     const theme = (() => {
-      if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+      if (
+        typeof localStorage !== 'undefined' &&
+        localStorage.getItem('theme')
+      ) {
         return localStorage.getItem('theme');
       }
       if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
@@ -61,9 +64,9 @@
     })();
 
     if (theme === 'light') {
-      document.documentElement.setAttribute('class', '');
+      document.documentElement.setAttribute('data-theme', 'light');
     } else {
-      document.documentElement.setAttribute('class', 'dark');
+      document.documentElement.setAttribute('data-theme', 'dark');
     }
 
     window.localStorage.setItem('theme', theme);
@@ -73,10 +76,10 @@
       const currentTheme = localStorage.getItem('theme');
 
       if (currentTheme === 'light') {
-        element.setAttribute('class', 'dark');
+        element.setAttribute('data-theme', 'dark');
         localStorage.setItem('theme', 'dark');
       } else {
-        element.setAttribute('class', '');
+        element.setAttribute('data-theme', 'light');
         localStorage.setItem('theme', 'light');
       }
     };
@@ -90,9 +93,9 @@
 <script>
   document.addEventListener('astro:after-swap', () => {
     if (localStorage.theme === 'dark') {
-      document.documentElement.setAttribute('class', 'dark');
+      document.documentElement.setAttribute('data-theme', 'dark');
     } else {
-      document.documentElement.setAttribute('class', '');
+      document.documentElement.setAttribute('data-theme', 'light');
     }
   });
 </script>
