@@ -4,7 +4,7 @@ const { title, url, pubDate } = Astro.props;
 
 <div>
   <article>
-    <p>{pubDate.toString().slice(0, 10)}</p>
+    <p>{pubDate && pubDate.toString().slice(0, 10)}</p>
     <li class="post-link"><a href={url}>{title}</a></li>
   </article>
 </div>
