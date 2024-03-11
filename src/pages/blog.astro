@@ -8,11 +8,13 @@ const allPosts = await getCollection('posts');
 
 <BaseLayout pageTitle={pageTitle}>
   <p>This is where I will post analysis, classics and experiences.</p>
-  <ul>
-    {
-      allPosts.map((post) => (
-        <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} />
-      ))
-    }
-  </ul>
+  <div class="grid">
+    <ul>
+      {
+        allPosts.map((post) => (
+          <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} />
+        ))
+      }
+    </ul>
+  </div>
 </BaseLayout>

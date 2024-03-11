@@ -1,12 +1,12 @@
 ---
-title: 'My First Blog Post'
-pubDate: 2022-07-01
+title: 'Game Analysis - Bezirksliga Mitte (vs. Weimar)'
+pubDate: 2024-03-11
 description: 'This is the first post of my new Astro blog.'
 author: 'Astro Learner'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["analysis", "league", "OTB"]
 ---
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
