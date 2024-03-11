@@ -44,13 +44,13 @@ I have never encountered this 4. b3 line before. Initially, I thought it is quit
 According to Toth's Chessable course the immediate ...cxd4! is the right approach.
 The explanation being: "This is a rare example when releasing tension in the center is benefiting us. After the trade, the bishop on b2 will be biting into granite, having no real prospects!"
 
-Example Chessable variation: (4...<span style="color: #00895A">cxd4!</span> 5. exd4 (5. <span style="color: #00895A">Nxd4?</span> Note: A mistake due to <span style="color: #00895A">e5!</span> ))
+Example Chessable variation: (4...<span style="color: #00895A">cxd4!</span> 5. exd4 (5. <span style="color: #FF9500">Nxd4?</span> Note: A mistake due to <span style="color: #00895A">...e5!</span> 6. Nf3 Nc6∓ and Black dominates the center! Plan of ...Bg4, ...Bd6))
 
 5. **Bb2 Bf5**
 
-   - Developing bishop outside pawn chain.
+   - Developing the bishop outside the pawn chain.
 
-6. Bd3 Bg6
+6. **Bd3 Bg6**
 
    - Considered exchanging on d3 but didn't want to ease White's development.
 
