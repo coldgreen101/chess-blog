@@ -3,7 +3,9 @@ const { title, url } = Astro.props;
 ---
 
 <div class="grid">
-  <div><article><li class="post-link"><a href={url}>{title}</a></li></article></div>
+  <div>
+    <article><li class="post-link"><a href={url}>{title}</a></li></article>
+  </div>
 </div>
 
 <style>
@@ -14,11 +16,12 @@ const { title, url } = Astro.props;
   }
   .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted */
     gap: 20px;
+    justify-content: space-between; /* Added to space items evenly */
   }
 
- .post-link {
+  .post-link {
     list-style: none;
     margin: 0;
     padding: 0;
