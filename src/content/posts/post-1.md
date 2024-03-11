@@ -4,11 +4,21 @@ pubDate: 2024-03-11
 description: 'Game analysis of my 7th round :)'
 author: 'Grkinic, Domjan'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
-tags: ["analysis", "league", "OTB", "Colle System"]
+  url: 'https://docs.astro.build/assets/full-logo-light.png'
+  alt: 'The full Astro logo.'
+tags: ['analysis', 'league', 'OTB', 'Colle System']
 ---
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+
+## Initial thoughts
+a) I played reasonably well in the opening, although I was out of book very early on.
+
+b) I outplayed my opponent in an IQP position
+
+c) I didn't calculate deeply enough at critical moments (over-confidence), giving my opponent chances for holding a draw.
+
+## Game Replay
+
+<iframe width="800" height="600" src="https://lichess.org/study/embed/WCyfLvFP/MeSUGH1l" frameborder=0></iframe>
 
 ## What I've accomplished
 
