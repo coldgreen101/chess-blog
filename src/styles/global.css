@@ -31,15 +31,15 @@ h6 {
   transition: transform 0.3s ease;
 }
 
-.hamburger.clicked .line:nth-child(1) {
+.clicked .line:nth-child(1) {
   transform: translateY(8px) rotate(45deg); /* Rotate and move the first line */
 }
 
-.hamburger.clicked .line:nth-child(2) {
+.clicked .line:nth-child(2) {
   opacity: 0; /* Hide the second line */
 }
 
-.hamburger.clicked .line:nth-child(3) {
+.clicked .line:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg); /* Rotate and move the third line */
 }
 

@@ -1,8 +1,15 @@
 ---
 ---
 
-<div class="hamburger">
+<div class="hamburger" onclick="toggleMenu()">
   <span class="line"></span>
   <span class="line"></span>
   <span class="line"></span>
 </div>
+
+<script>
+  function toggleMenu() {
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.classList.toggle('clicked');
+}
+</script>
