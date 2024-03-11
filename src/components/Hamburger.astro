@@ -1,8 +1,8 @@
 ---
- export function toggleMenu() {
-    const hamburger = document.querySelector('.hamburger');
-    hamburger.classList.toggle('clicked');
-  }
+export function toggleMenu() {
+  const hamburger = $$('.hamburger');
+  hamburger.classList.toggle('clicked');
+}
 ---
 
 <div class="hamburger" on:click={toggleMenu}>
