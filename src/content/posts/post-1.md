@@ -1,12 +1,12 @@
 ---
-title: 'Game Analysis - Bezirksliga Mitte (vs. Weimar)'
+title: 'Game Analysis - Bezirksliga Mitte (vs. SSV Vimaria 91 Weimar)'
 pubDate: 2024-03-11
-description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+description: 'Game analysis of my 7th round :)'
+author: 'Grkinic, Domjan'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'The full Astro logo.'
-tags: ["analysis", "league", "OTB"]
+tags: ["analysis", "league", "OTB", "Colle System"]
 ---
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
 
