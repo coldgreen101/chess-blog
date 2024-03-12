@@ -73,10 +73,12 @@ Struggled to find comfort after: (7...e6 8. Ba3 b6 9. Bb5 (8...<span style="colo
 There are ideas with a c2-c4 pawn break, but the b2-bishop is biting on granite.
 (8. <span style="color: #00895A">Nxd4!</span> Seems better since 8... <span style="color: #D93526">e5??</span> doesn't work due to 9. Nxc6 bxc6 10. Bxe5 losing a central pawn.)
 
-8.  Ne5?!
+8.  <span style="color: #017FC0">Ne5?!</span>
 
-    - Unprincipled move, moving developed piece while b2-knight remains inactive.
-    - **Subvariation:** (9. Nbd2)
+---
+
+A rather unprincipled move, moving an already developed piece while the b2-knight remains asleep.
+A better move would be (9. Nbd2)
 
 9.  Qxd3 Bd6 11. Nd2 O-O 12. c4?!
 
