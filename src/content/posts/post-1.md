@@ -86,10 +86,13 @@ A better move would be (9. Nbd2)
 
 I would assume my opponent planned recapturing with 13. <span style="color: #D93526">bxc4??</span>, but Black has tactical resources winning a piece.
 
-10. Qe3? Nd5 14. Qf3 cxb3?!
+13. <span style="color: #FF9500">**Qe3?**</span>
 
-    - Inaccurate, c3! was stronger, winning a piece.
-    - **Subvariation:** (14... c3! 15. Bxc3 (15. Nxc6?! 15... Qc7! 16. Bxc3 Bxh2+ 17. Kh1 Qxc6 $17) 15... Nxc3 16. Nxc6! (16. Qxc3?? Bb4! 17. Qe3 Nxe5 18. Qxe5 (18. dxe5 Qxd2)))
+    ---
+
+    (13. <span style="color: #00895A">Ndxc4!</span> and I don't see anything wrong recapturing the pawn with the knight.)
+
+    (After 13.<span style="color: #D93526">bxc4??</span> comes <span style="color: #00895A">Bxe5!-+</span> exploting the pin on the d-file and winning a piece!)
 
 11. Nxb3 Rc8
 
