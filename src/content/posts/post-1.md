@@ -104,15 +104,17 @@ After seeing that line, I saw a seemingly "better" option for White: <span style
 
 The best for White seems to be: 15. Bxc3 Nxc3 16. <span style="color: #00895A">Nxc6!</span> and the resulting position is unclear.
 
-12. h4? Ng6?!
+15. <span style="color: #017FC0">**Nxb3?!**</span> ...
 
-    - Slight inaccuracy, Nf5! was better.
-    - **Subvariation:** (17... Nf5! )
+---
 
-13. g4? Bxe5?!
+I think an inaccuracy because 15. Qxb3 seems more natural attacking the b7-pawn. Also the knight may be needed on the kingside.
 
-    - Unnecessary exchange, Nf4! kept attacking chances.
-    - **Subvariation:** (20... Nf4!)
+...**Rc8** **16. Rac1** **<span style="color: #017FC0">Nce7?!</span>**
+
+---
+
+On second thought my reluctancy to switch the pawn structure was a bit overexaggerated in the game. I wanted to keep the IQP structure at all costs, which was a mistake IMO. Since after: (16...<span style="color: #00895A">Nxe5!</span> 17. dxe5 Be7⩱ -- There are absolutely no problems for Black here, because there is no apparent kingside attack for White. The White minor pieces are stuck on the queenside not having much to do on that side of the board. Also, the b2-bishop is still stuck behind the pawn, which is on a dark square.)
 
 14. Kh2?? Qf4+?!
 
