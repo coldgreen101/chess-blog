@@ -82,8 +82,9 @@ A better move would be (9. Nbd2)
 
 9...**Bxd3** 10. **Qxd3** **Bd6** 11. **Nd2** **O-O** <span style="color: #FF9500">12. **c4?**</span>
 
-    - White aims for c4 after ...dxc4, missing tactical opportunities.
-    - **Subvariation:** (12... dxc4 13. Qe3? (13. Ndxc4!))
+---
+
+I would assume my opponent planned recapturing with 13. <span style="color: #D93526">bxc4??</span>, but Black has tactical resources winning a piece.
 
 10. Qe3? Nd5 14. Qf3 cxb3?!
 
