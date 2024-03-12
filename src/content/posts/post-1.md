@@ -88,16 +88,21 @@ I would assume my opponent planned recapturing with 13. <span style="color: #D93
 
 13. <span style="color: #FF9500">**Qe3?**</span>
 
-    ---
+---
 
-    (13. <span style="color: #00895A">Ndxc4!</span> and I don't see anything wrong recapturing the pawn with the knight.)
+(13. <span style="color: #00895A">Ndxc4!</span> and I don't see anything wrong recapturing the pawn with the knight.)
 
-    (After 13.<span style="color: #D93526">bxc4??</span> comes <span style="color: #00895A">Bxe5!-+</span> exploting the pin on the d-file and winning a piece!)
+(After 13.<span style="color: #D93526">bxc4??</span> comes <span style="color: #00895A">Bxe5!-+</span> exploting the pin on the d-file and winning a piece!)
 
-11. Nxb3 Rc8
+13... **Nd5** 14. **Qf3** <span style="color: #017FC0">**cxb3?!**</span>
 
-    - Reluctant to change pawn structure, but Nxe5! was stronger.
-    - **Subvariation:** (15... Nxe5! 16. dxe5 Be7 $15)
+---
+
+I calculated 14...<span style="color: #00895A">c3</span> first and saw that I am winning a piece after 15. Bxc3 <span style="color: #D93526">Qxc3??</span> <span style="color: #00895A">Bb4!</span> 17. Qe3 Nxe5 18. Qxe5 (18. dxe5 Qxd2-+) Bxd2-+
+
+After seeing that line, I saw a seemingly "better" option for White: <span style="color: #017FC0">15.Nxc6?!</span> and I thought this move ruins the party since I don't have Bb4 ideas anymore, but in fact it is an innaccuracy because of <span style="color: #00895A">Qc7!</span> 16. Bxc3 Bxh2+ 17. Kh1 Qxc6-+
+
+The best for White seems to be: 15. Bxc3 Nxc3 16. <span style="color: #00895A">Nxc6!</span> and the resulting position is unclear.
 
 12. h4? Ng6?!
 
