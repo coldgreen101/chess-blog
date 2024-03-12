@@ -104,7 +104,7 @@ After seeing that line, I saw a seemingly "better" option for White: <span style
 
 The best for White seems to be: 15. Bxc3 Nxc3 16. <span style="color: #00895A">Nxc6!</span> and the resulting position is unclear.
 
-15. <span style="color: #017FC0">**Nxb3?!**</span> ...
+15. <span style="color: #017FC0">**Nxb3?!**</span>
 
 ---
 
