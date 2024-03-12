@@ -66,21 +66,21 @@ Considered exchanging on d3 but didn't want to ease White's development.
 
 Struggled to find comfort after: (7...e6 8. Ba3 b6 9. Bb5 (8...<span style="color: #00895A">Qa5!</span> I overlooked this resource which relieves all pressure with tempo!)).
 
-8. <span style="color: #017FC0">**exd4?!**</span>
+8. <span style="color: #017FC0">**exd4?!**</span> **e6**
 
 ---
 
 There are ideas with a c2-c4 pawn break, but the b2-bishop is biting on granite.
 (8. <span style="color: #00895A">Nxd4!</span> Seems better since 8... <span style="color: #D93526">e5??</span> doesn't work due to 9. Nxc6 bxc6 10. Bxe5 losing a central pawn.)
 
-8.  <span style="color: #017FC0">Ne5?!</span>
+9.  <span style="color: #017FC0">**Ne5?!**</span>
 
 ---
 
 A rather unprincipled move, moving an already developed piece while the b2-knight remains asleep.
 A better move would be (9. Nbd2)
 
-9.  Qxd3 Bd6 11. Nd2 O-O 12. c4?!
+9...**Bxd3** 10. **Qxd3** **Bd6** 11. **Nd2** **O-O** <span style="color: #FF9500">12. **c4?**</span>
 
     - White aims for c4 after ...dxc4, missing tactical opportunities.
     - **Subvariation:** (12... dxc4 13. Qe3? (13. Ndxc4!))
