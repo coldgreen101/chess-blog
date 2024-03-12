@@ -70,8 +70,8 @@ Struggled to find comfort after: (7...e6 8. Ba3 b6 9. Bb5 (8...<span style="colo
 
 ---
 
-There are ideas with c2-c4 pawn break, but the b2-bishop is biting on granite.
-(8. <span style="color: #00895A">Nxd4!</span> 8... e5?? 9. Nxc6 bxc6 10. Bxe5)
+There are ideas with a c2-c4 pawn break, but the b2-bishop is biting on granite.
+(8. <span style="color: #00895A">Nxd4!</span> Seems better since 8... <span style="color: #D93526">e5??</span> doesn't work due to 9. Nxc6 bxc6 10. Bxe5 losing a central pawn.)
 
 8.  Ne5?!
 
