@@ -39,6 +39,8 @@ Typical pawn move in this structure to control more of the center!
 
 ---
 
+<img src="https://lichess1.org/export/fen.gif?fen=rnbqkb1r%2Fpp2pppp%2F5n2%2F2pp4%2F3P4%2F1P2PN2%2FP1P2PPP%2FRNBQKB1R+b+KQkq+-+0+4&color=black&lastMove=b2b3&variant=standard&theme=green&piece=cburnett" width="600" height="600" alt="position after 4. b3">
+
 I have never encountered this 4. b3 line before. Initially, I thought it is quite dubious, but it turns out it is theory and it's called the Colle-Zuckertort System.
 
 According to Toth's Chessable course the immediate ...cxd4! is the right approach.
