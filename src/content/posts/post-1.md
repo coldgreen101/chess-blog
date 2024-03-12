@@ -148,12 +148,28 @@ Exposing the king too much, I initially thought my opponent played with the idea
 
 20. g3 is better since h5 is immune to capture and it is less exposing for White's king.
 
-20...**<span style="color: #017FC0">Bxe5?!</span>
+20...**<span style="color: #017FC0">Bxe5?!</span>**
 
 ---
 
 In hindsight a really unnecessary move since the bishop still has the potential to become a great attacking piece.
-The reason I took is so the f4 push becomes impossible due to Qxg4+. Instead I would achieve the same thing with: 20...<span style="color: #00895A">Nf4!</span>
+The reason I took is so the f4 push becomes impossible due to Qxg4+. Instead I would achieve the same thing with: 20...<span style="color: #00895A">Nf4!</span> keeping the bishop and stopping the f4 push at the same time!
+
+21. **dxe5** **Nf4** 22. **f3** **<span style="color: #D93526">Nxh5??</span>**
+
+---
+
+With this hasty move, I gave away my advantage.
+
+23. **<span style="color: #D93526">Kh2??</span>**
+
+---
+
+Tries to get out of the pin, but this creates more problems for White.
+
+Instead: 23. <span style="color: #00895A">Rxc8!</span> Rxc8 24. <span style="color: #058686">Bc1!!</span> -- After this brilliant retreating move which I didn't spot in the game, the position is equal.
+
+I initially saw 23. <span style="color: #D93526">Qxb7??</span>
 
 ## Game Replay
 
