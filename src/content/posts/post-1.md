@@ -9,6 +9,24 @@ image:
 tags: ['analysis', 'league', 'OTB', 'Colle System']
 ---
 
+## Info
+Eitner vs. Grkinic
+
+- **Event:** Bezirksliga Mitte 1
+- **Site:** [View on Lichess](https://lichess.org/study/WCyfLvFP/MeSUGH1l)
+- **Date:** 03.03.2024
+- **Round:** 7.
+- **White:** Eitner, Henrik
+- **Black:** Grkinic, Domjan
+- **Result:** 0-1
+- **White Elo:** 1298
+- **Black Elo:** 1592
+- **White Team:** SSV Vimaria 91 Weimar
+- **Black Team:** SG Arnstadt-Stadtilm 2
+- **Board:** 2
+- **Annotator:** Grkinic, Domjan
+
+
 ## Summary
 
 a) I played reasonably well in the opening, although I was out of book very early on.
