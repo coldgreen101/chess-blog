@@ -169,7 +169,7 @@ Tries to get out of the pin, but this creates more problems for White.
 
 Instead: 23. <span style="color: #00895A">Rxc8!</span> Rxc8 24. <span style="color: #058686">Bc1!!</span> -- After this brilliant retreating move which I didn't spot in the game, the position is equal.
 
-I initially saw 23. <span style="color: #D93526">Qxb7??</span>
+I initially saw 23. <span style="color: #D93526">Qxb7??</span> <span style="color: #00895A">Qe3!</span> and got really excited since I was worried White can take the b7-pawn attacking my rook. I failed to see White's brilliant resource instead. 25. <span style="color: #D93526">Rf2??</span> (25. Kh1 Ng3+ 26. Kh2 Nxf1+ ) Qe1+ <span style="color: #D93526">Kh2??</span> Qxf2+ 27. Kh1 Qg2#
 
 ## Game Replay
 
