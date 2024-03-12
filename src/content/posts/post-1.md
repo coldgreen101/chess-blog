@@ -29,7 +29,7 @@ I have only played against this line once before, and in this game I was out of 
 
 TODO: Learn and quiz Colle lines on Chessable.
 
-3 <span style="color: #00895A">**...c5!**</span>
+3<span style="color: #00895A">...**c5!**</span>
 
 ---
 
@@ -48,7 +48,7 @@ The explanation being: "This is a rare example when releasing tension in the cen
 
 Example Chessable variation: (4...<span style="color: #00895A">cxd4!</span> 5. exd4 (5. <span style="color: #FF9500">Nxd4?</span> Note: A mistake due to <span style="color: #00895A">...e5!</span> 6. Nf3 Nc6∓ "and Black dominates the center! Plan of ...Bg4, ...Bd6 and ...O-O gives Black a great position.") ...Nc6 6. Bd3 (denying ...Bf5) ...<span style="color: #00895A">Bg4!</span> 7. Bb2 <span style="color: #00895A">Qa5+!</span> "This check seems silly, as it forces White to play Nbd2, which is what they want to do anyway, but we have a trick or two up our sleeve! 8. Nbd2 <span style="color: #00895A">Nb4!</span> "White is already in trouble since ...Nxd3 is a threat they can't possibly allow." 9.Qe2 (9. <span style="color: #FF9500">Be2?</span> Bxf3 10. Bxf3 Qc7 "and White has no good way to defend the c2 pawn") ...Nxd3+ "obtaining the bishop pair!" 10. Qxd3 e6 11. c3 "A sad necessity, as (11. <span style="color: #FF9500">O-O?</span>"loses the c2 pawn after" ...<span style="color: #00895A">Bf5!</span>") ...Bd6 12. O-O O-O "Black is firmly on top. We can choose to play in the center with ...Bf5 and ...Ne4, but the restrictive ...b7-b5, followed by ...Rac8 is also very attractive")
 
-4... **Nc6** 5. **Bb2 Bf5**
+4...**Nc6** 5. **Bb2 Bf5**
 
 ---
 
