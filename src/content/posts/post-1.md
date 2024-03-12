@@ -203,6 +203,12 @@ Allowing 29... <span style="color: #00895A">Rc3+!</span>
 
 0 - 1
 
+## Conclusion
+
+- Deviated in the opening with ...Nc6.
+- Calculated shallowly at critical moments due to overconfidence.
+- Continued improvement needed in tactical calculations.
+
 ## Game Replay
 
 <iframe width="800" height="600" src="https://lichess.org/study/embed/WCyfLvFP/MeSUGH1l" frameborder=0></iframe>
