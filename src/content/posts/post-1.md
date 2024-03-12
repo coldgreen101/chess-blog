@@ -66,9 +66,12 @@ Considered exchanging on d3 but didn't want to ease White's development.
 
 Struggled to find comfort after: (7...e6 8. Ba3 b6 9. Bb5 (8...<span style="color: #00895A">Qa5!</span> I overlooked this resource which relieves all pressure with tempo!)).
 
-    8. exd4?!
-       - Ideas with c2-c4 pawn break, but b2-bishop lacks prospects.
-       - **Subvariation:** (8. Nxd4! 8... e5?? 9. Nxc6 bxc6 10. Bxe5)
+8. <span style="color: #017FC0">**exd4?!**</span>
+
+---
+
+There are ideas with c2-c4 pawn break, but the b2-bishop is biting on granite.
+(8. <span style="color: #00895A">Nxd4!</span> 8... e5?? 9. Nxc6 bxc6 10. Bxe5)
 
 8.  Ne5?!
 
