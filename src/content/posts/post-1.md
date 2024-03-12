@@ -169,7 +169,39 @@ Tries to get out of the pin, but this creates more problems for White.
 
 Instead: 23. <span style="color: #00895A">Rxc8!</span> Rxc8 24. <span style="color: #058686">Bc1!!</span> -- After this brilliant retreating move which I didn't spot in the game, the position is equal.
 
-I initially saw 23. <span style="color: #D93526">Qxb7??</span> <span style="color: #00895A">Qe3!</span> and got really excited since I was worried White can take the b7-pawn attacking my rook. I failed to see White's brilliant resource instead. 25. <span style="color: #D93526">Rf2??</span> (25. Kh1 Ng3+ 26. Kh2 Nxf1+ ) Qe1+ <span style="color: #D93526">Kh2??</span> Qxf2+ 27. Kh1 Qg2#
+I initially saw 23. <span style="color: #D93526">Qxb7??</span> <span style="color: #00895A">Qe3!</span> and got really excited since I was worried White can take the b7-pawn attacking my rook. I failed to see White's brilliant resource instead. 25. <span style="color: #D93526">Rf2??</span> (25. Kh1 Ng3+ 26. Kh2 Nxf1+ 27. Kh3-+ ) Qe1+ (26. Rf1 Qg3+ 27. Kh1 Qg2#)<span style="color: #D93526">Kh2??</span> Qxf2+ 27. Kh1 (27. Kh3 Qg3#) Qg2#
+
+23... **<span style="color: #017FC0">Qf4+?!</span>**
+
+---
+
+This is also winning, but it's an unnecessary exchange of queens, since White's king is still pretty exposed.
+Improvement: 23...<span style="color: #00895A">Nf4!</span> keeping the attack rolling!
+
+24. **Qxf4** **Nxf4** 25. **Rxc8** **Rxc8** 26. **Kg3** **Nhg6** 27. **Rd1** **Nd5** 28. **<span style="color: #FF9500">Ba3?</span>**
+
+---
+
+Overlooking and dropping the e5-pawn.
+Improvement: 28. Bd4
+
+28... **Nxe5** 29. **<span style="color: #FF9500">f4?</span>**
+
+---
+
+Allowing 29... <span style="color: #00895A">Rc3+!</span>
+
+29... **<span style="color: #00895A">Rc3+!</span>** 30. <span style="color: #D93526">Kh4??</span>
+
+---
+
+30. Kf2 would have kept the game going for a bit longer.
+
+30...**Ng6+**
+
+---
+
+0 - 1
 
 ## Game Replay
 
