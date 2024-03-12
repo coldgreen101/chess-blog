@@ -116,13 +116,44 @@ I think an inaccuracy because 15. Qxb3 seems more natural attacking the b7-pawn.
 
 On second thought my reluctancy to switch the pawn structure was a bit overexaggerated in the game. I wanted to keep the IQP structure at all costs, which was a mistake IMO. Since after: (16...<span style="color: #00895A">Nxe5!</span> 17. dxe5 Be7⩱ -- There are absolutely no problems for Black here, because there is no apparent kingside attack for White. The White minor pieces are stuck on the queenside not having much to do on that side of the board. Also, the b2-bishop is still stuck behind the pawn, which is on a dark square.)
 
-14. Kh2?? Qf4+?!
+17. <span style="color: #FF9500">**h4?**</span>
 
-    - Unnecessary exchange of queens, Nf4! maintained pressure.
-    - **Subvariation:** (23... Nf4!)
+---
 
-15. f4? Rc3+! 30. Kh4?? Ng6+ 0-1
-    - White's position collapses under pressure.
+Seemed to me unnecessary, since White has only two pieces for a kingside attack which is very slow. After this move, I was getting confident about my chances.
+
+17... **<span style="color: #017FC0">Ng6?!</span>**
+
+---
+
+An inaccuracy since: 17...<span style="color: #00895A">Nf5!</span> attacks the h4-pawn as well, but it doesn't walk into 18. h5 with tempo.
+
+18. **h5** **<span style="color: #00895A">Nh4!</span>**
+
+---
+
+Causing trouble with the knights on the kingside.
+
+19. **Qe4** **<span style="color: #00895A">Qg5!</span>**
+
+---
+
+Getting the queen into the attack and outnumbering the defenders.
+
+20. **<span style="color: #D93526">g4??</span>**
+
+---
+
+Exposing the king too much, I initially thought my opponent played with the idea of pushing f2-f4 next move.
+
+20. g3 is better since h5 is immune to capture and it is less exposing for White's king.
+
+20...**<span style="color: #017FC0">Bxe5?!</span>
+
+---
+
+In hindsight a really unnecessary move since the bishop still has the potential to become a great attacking piece.
+The reason I took is so the f4 push becomes impossible due to Qxg4+. Instead I would achieve the same thing with: 20...<span style="color: #00895A">Nf4!</span>
 
 ## Game Replay
 
