@@ -9,11 +9,11 @@
 </div>
 
 <script>
-  const menu = document.querySelector('.menu');
-  menu.addEventListener('click', () => {
-    const activeElements = document.querySelectorAll('.active-element');
-    activeElements.forEach((element) => {
-      element.classList.toggle('active');
+  const hamburger = document.querySelector('.hamburger');
+  hamburger.addEventListener('click', () => {
+    const lines = document.querySelectorAll('.line');
+    lines.forEach((line) => {
+      line.classList.toggle('active');
     });
   });
 </script>
