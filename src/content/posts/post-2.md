@@ -1,7 +1,7 @@
 ---
-title: My Second Blog Post
-author: Astro Learner
-description: "After learning some Astro, I couldn't stop!"
+title: Book Recommendations
+author: Grkinic, Domjan
+description: "A list of great chess books for varying levels!"
 image:
     url: "https://docs.astro.build/assets/arc.webp"
     alt: "Thumbnail of Astro arcs."
