@@ -4,8 +4,9 @@ const { title, url, pubDate } = Astro.props;
 
 <div>
   <article>
-    // Displaying the publication date in a readable format
+    {/* Display the publication date in a readable format without clock time */}
     <p>{pubDate && pubDate.toString().slice(0, 10)}</p>
+    {/* Dynamic blog post links */}
     <li class="post-link"><a href={url}>{title}</a></li>
   </article>
 </div>
