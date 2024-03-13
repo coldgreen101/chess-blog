@@ -33,6 +33,10 @@ h6 {
   transition: transform 0.3s ease;
 }
 
+[data-theme="light"] .hamburger .line {
+  background-color: #; /* Set the color of hamburger lines in light mode */
+}
+
 .hamburger.active .line:nth-child(1) {
   transform: rotate(45deg) translate(7px, 7px); /* Adjusted translate values */
 }
