@@ -1,24 +1,28 @@
 ---
 title: Book Recommendations
 author: Grkinic, Domjan
-description: "A list of great chess books for varying levels!"
+description: 'A list of great chess books for varying levels!'
 image:
-    url: "/books.jpeg"
-    alt: "Photo of a library"
+  url: '/books.jpeg'
+  alt: 'Photo of a library'
 pubDate: 2024-03-13
-tags: ["improvement", "books"]
+tags: ['improvement', 'books']
 ---
 
 ## Introduction:
-Chess literature is a valuable resource for players looking to enhance their skills and understanding of the game. To cater to different skill levels.
+
+Hey there, fellow chess aficionados! If you're looking to up your game and dive into the world of chess literature, you're in the right place. This list is packed with awesome book recommendations tailored to different skill levels. Let's level up together!
 
 ## Recommendations:
-1. **Beginner (400-1400)**:
+
+### Beginner (400-1400):
+
 - "How to Beat your Dad at Chess" by Murray Chandler
 - "Logical Chess: Move by Move" by Irving Chernev
 - "Silman's Complete Endgame Course" by Jeremy Silman
 
-2. **Intermediate (1500-1800)**:
+### Intermediate (1500-1800):
+
 - "Soviet Chess Primer" by Ilya Maizelis
 - "Forcing Chess Moves" by Charles Hertan
 - "Endgame Strategy" by Mikhail Shereshevsky
@@ -28,14 +32,12 @@ Chess literature is a valuable resource for players looking to enhance their ski
 - "Paul Keres: The Road to the Top" by Paul Keres
 - "Pal Benko: My Life, Games, and Compositions" by Pal Benko
 - "Yusupov Book Series" (9 books) by Artur Yusupov
-- "Best Lessons of a chess coach" by Sunil Weeramantry
+- "Best Lessons of a Chess Coach" by Sunil Weeramantry
 - "Chess Strategy for Club Players" by Herman Grooten
 - "100 Endgames You Must Know" by Jesus de la Villa
 
-3. **Advanced (1900-2200+)**:
+### Advanced (1900-2200+):
+
 - "Yusupov Book Series" (9 books) by Artur Yusupov
-- "Dvoretsky's Endgame Manual" by Mark Dvoretsky (disclaimer: recommended from 2100+)
+- "Dvoretsky's Endgame Manual" by Mark Dvoretsky (recommended from 2100+)
 - "Chess Structures: A Grandmaster Guide" by Mauricio Flores Rios
-
-
-
