@@ -46,17 +46,23 @@ h6 {
 }
 
 .nav-links {
-  width: 100%;
+  position: fixed;
   top: 5rem;
-  left: 48px;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Add a background color for better visibility */
   display: none;
-  margin: 0;
+  flex-direction: column; /* Change to column layout for mobile */
+}
+
+ul.nav-links {
+  padding: 0; /* Remove default padding */
 }
 
 ul.nav-links li a {
   display: block;
   text-align: center;
-  padding: 10px 0;
+  padding: 1rem;
   text-decoration: none;
   font-weight: bold;
   text-transform: uppercase;
@@ -70,18 +76,19 @@ ul.nav-links li a {
 /* Media Queries */
 @media screen and (min-width: 768px) {
   .nav-links {
-    margin-left: 5em;
-    display: block;
     position: static;
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
     width: auto;
-    background: none;
+    top: auto;
+    left: auto;
+    align-items: center;
+    justify-content: flex-end;
   }
-
   ul.nav-links li a {
-    display: inline-block;
-    padding: 16px 20px;
+    padding: 16px, 20px;
   }
-
   .hamburger {
     display: none;
   }
