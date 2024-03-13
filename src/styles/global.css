@@ -49,8 +49,8 @@ h6 {
   position: fixed;
   top: 5rem;
   left: 0;
-  width: 100%;
-  background-color: #333; /* Add a background color for better visibility */
+  width: 100vw;
+  background-color: #fff;
   display: none;
   flex-direction: column; /* Change to column layout for mobile */
 }
