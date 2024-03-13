@@ -28,4 +28,6 @@ For pattern recognition, I would recommend Puzzle Rush on chess.com or Puzzle St
 For calculation, I would recommend either Chesstempo standard tactics set on hard or Tactics books like "Forcing Chess Moves" by Charles Hertan for example. The key is to take your time and calculate the lines until you come to a conclusion. Set up the pieces on a board if you have one and don't move the pieces around, calculate in your head!
 
 ## Analysing your own games
-I think this is one of the most valuable part of any training plan, but it can be hard and time-consuming. The longer the game was
+I think this is one of the most valuable part of any training plan, but it can be hard and time-consuming. The longer the game was, the more time you should spend analysing it.
+
+You can take a look at my example analysis from one of my own games. It doesn't have to be so detailed, but you should at least identify the critical moments, improve upon them and try to understand why you made the mistakes you did.
