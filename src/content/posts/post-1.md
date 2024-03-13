@@ -4,7 +4,7 @@ pubDate: 2024-03-11
 description: 'Game analysis of my 7th league round :)'
 author: 'Grkinic, Domjan'
 image:
-  url: '/game_analysis.jpeg'
+  url: '/game_analysis.webp'
   alt: 'Boy with his chess set'
 tags: ['analysis', 'league', 'OTB', 'Colle System']
 ---
