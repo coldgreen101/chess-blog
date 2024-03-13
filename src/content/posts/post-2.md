@@ -19,18 +19,23 @@ Chess literature is a valuable resource for players looking to enhance their ski
 - "Silman's Complete Endgame Course" by Jeremy Silman
 
 2. **Intermediate (1500-1800)**:
+- "Soviet Chess Primer" by Ilya Maizelis
 - "Forcing Chess Moves" by Charles Hertan
 - "Endgame Strategy" by Mikhail Shereshevsky
 - "Alekhine's Best Games of Chess" by Alexander Alekhine
+- "Life and Games of Mikhail Tal" by Mikhail Tal
+- "60 Memorable Games" by Bobby Fischer
 - "Paul Keres: The Road to the Top" by Paul Keres
+- "Pal Benko: My Life, Games, and Compositions" by Pal Benko
 - "Yusupov Book Series" (9 books) by Artur Yusupov
 - "Best Lessons of a chess coach" by Sunil Weeramantry
+- "Chess Strategy for Club Players" by Herman Grooten
+- "100 Endgames You Must Know" by Jesus de la Villa
 
+3. **Advanced (1900-2200+)**:
+- "Yusupov Book Series" (9 books) by Artur Yusupov
+- "Dvoretsky's Endgame Manual" by Mark Dvoretsky (disclaimer: recommended from 2100+)
+-
 
-3. **Intermediate (1200-1599)**: Books in this range cater to players with a solid foundation in chess, offering advanced tactics, positional play, and opening principles.
-
-4. **Advanced (1600-1999)**: Designed for experienced players seeking to refine their skills, master complex strategies, and deepen their understanding of the game.
-
-5. **Expert (2000+)**: Books in this category are tailored for highly skilled players looking to fine-tune their game at a competitive level, focusing on advanced concepts and high-level strategies.
 
 
