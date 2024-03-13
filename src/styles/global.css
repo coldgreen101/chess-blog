@@ -63,7 +63,8 @@ ul.nav-links li a {
 }
 
 .expanded {
-  display: unset;
+  display: flex;
+  flex-direction: column;
 }
 
 /* Media Queries */
