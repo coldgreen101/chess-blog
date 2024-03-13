@@ -4,6 +4,7 @@ const { title, url, pubDate } = Astro.props;
 
 <div>
   <article>
+    // Displaying the publication date in a readable format
     <p>{pubDate && pubDate.toString().slice(0, 10)}</p>
     <li class="post-link"><a href={url}>{title}</a></li>
   </article>
