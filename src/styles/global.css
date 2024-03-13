@@ -50,9 +50,15 @@ h6 {
   top: 5rem;
   left: 0;
   width: 100vw;
-  background-color: #CCC6B4;
   display: none;
   flex-direction: column; /* Change to column layout for mobile */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.33);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(2.1px);
+  -webkit-backdrop-filter: blur(2.1px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
 }
 
 ul.nav-links {
