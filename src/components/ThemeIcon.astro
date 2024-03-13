@@ -71,11 +71,11 @@
       const moonIcon = document.querySelector('.moon');
 
       if (currentTheme === 'dark') {
-        sunIcon.style.fill = 'transparent';
-        moonIcon.style.fill = 'white';
+        (sunIcon as HTMLElement).style.fill = 'transparent';
+        (moonIcon as HTMLElement).style.fill = 'white';
       } else {
-        sunIcon.style.fill = 'black';
-        moonIcon.style.fill = 'transparent';
+        (sunIcon as HTMLElement).style.fill = 'black';
+        (moonIcon as HTMLElement).style.fill = 'transparent';
       }
     };
 
