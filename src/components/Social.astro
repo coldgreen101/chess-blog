@@ -1,7 +1,7 @@
 ---
 const { platform, username } = Astro.props;
 
-let url;
+let url: string;
 if (platform === "lichess") {
   url = `https://lichess.org/@/${username}`;
 } else if (platform === "github") {
