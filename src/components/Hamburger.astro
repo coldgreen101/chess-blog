@@ -7,3 +7,13 @@
   <span class="line"></span>
   <span class="line"></span>
 </div>
+
+<script>
+  const menu = document.querySelector('.menu');
+  menu.addEventListener('click', () => {
+    const activeElements = document.querySelectorAll('.active-element');
+    activeElements.forEach((element) => {
+      element.classList.toggle('active');
+    });
+  });
+</script>
