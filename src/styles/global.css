@@ -3,12 +3,7 @@ body {
   font-family: 'Inconsolata', sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Karla', serif;
 }
 
@@ -63,7 +58,7 @@ ul.nav-links li a {
 }
 
 .expanded {
-  display: unset;
+  display: block;
 }
 
 /* Media Queries */
@@ -71,7 +66,7 @@ ul.nav-links li a {
   .nav-links {
     margin-left: 5em;
     display: block;
-    position: static;
+    position: absolute; /* Change to absolute positioning */
     width: auto;
     background: none;
   }
