@@ -1,5 +1,6 @@
 ---
-import setGreeting from './Greeting.svelte';
+import * from './Greeting.svelte';
+
 function closeDialog() {
   const dialog = document.querySelector('dialog');
   dialog.close();
@@ -12,7 +13,6 @@ function closeDialog() {
       <button aria-label="Close" rel="prev" on:click={closeDialog}></button>
       <h3><strong>{$greeting}! Thank you for visiting!</strong></h3>
     </header>
-    <button onclick={() => setGreeting()}> New Greeting</button>
+    <button onClick={() => setGreeting(randomMessage())}>New Greeting</button>
   </article>
 </dialog>
-
