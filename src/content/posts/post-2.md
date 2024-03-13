@@ -16,9 +16,16 @@ Chess literature is a valuable resource for players looking to enhance their ski
 1. **Beginner (400-1400)**:
 - "How to Beat your Dad at Chess" by Murray Chandler
 - "Logical Chess: Move by Move" by Irving Chernev
+- "Silman's Complete Endgame Course" by Jeremy Silman
 
+2. **Intermediate (1500-1800)**:
+- "Forcing Chess Moves" by Charles Hertan
+- "Endgame Strategy" by Mikhail Shereshevsky
+- "Alekhine's Best Games of Chess" by Alexander Alekhine
+- "Paul Keres: The Road to the Top" by Paul Keres
+- "Yusupov Book Series" (9 books) by Artur Yusupov
+- "Best Lessons of a chess coach" by Sunil Weeramantry
 
-2. **Beginner (800-1199)**: Recommended for players who have a basic understanding of chess principles and are ready to delve deeper into tactics and strategies.
 
 3. **Intermediate (1200-1599)**: Books in this range cater to players with a solid foundation in chess, offering advanced tactics, positional play, and opening principles.
 
