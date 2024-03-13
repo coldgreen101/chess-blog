@@ -50,7 +50,7 @@ h6 {
   top: 5rem;
   left: 0;
   width: 100vw;
-  background-color: #fff;
+  background-color: #CCC6B4;
   display: none;
   flex-direction: column; /* Change to column layout for mobile */
 }
