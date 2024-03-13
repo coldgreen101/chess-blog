@@ -9,11 +9,10 @@
 </div>
 
 <script>
-  const hamburger = document.querySelector('.hamburger');
-  hamburger.addEventListener('click', () => {
-    const lines = document.querySelectorAll('.line');
-    lines.forEach((line) => {
-      line.classList.toggle('active');
+  document.addEventListener('DOMContentLoaded', function () {
+    const hamburger = document.querySelector('.hamburger');
+    hamburger.addEventListener('click', function () {
+      this.classList.toggle('active');
     });
   });
 </script>
