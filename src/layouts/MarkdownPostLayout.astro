@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import PostComments from "../components/PostComments.astro";
 const { frontmatter } = Astro.props;
 ---
 
@@ -22,6 +23,8 @@ const { frontmatter } = Astro.props;
     }
   </div>
 </BaseLayout>
+<PostComments />
+
 <style>
   .tags {
     display: flex;
