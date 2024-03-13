@@ -34,7 +34,7 @@ h6 {
 }
 
 [data-theme="light"] .hamburger .line {
-  background-color: #; /* Set the color of hamburger lines in light mode */
+  background-color: var(--pico-background-color); /* Set the color of hamburger lines in light mode */
 }
 
 .hamburger.active .line:nth-child(1) {
