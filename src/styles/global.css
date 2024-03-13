@@ -33,18 +33,16 @@ h6 {
   transition: transform 0.3s ease;
 }
 
-.hamburger.active .line:nth-child(1),
-.hamburger.active .line:nth-child(3) {
-  transform: rotate(45deg);
+.hamburger.active .line:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
 }
 
 .hamburger.active .line:nth-child(2) {
   opacity: 0;
 }
 
-.hamburger.active .line:nth-child(1),
 .hamburger.active .line:nth-child(3) {
-  transform: rotate(-45deg);
+  transform: rotate(-45deg) translate(7px, -7px);
 }
 
 .nav-links {
