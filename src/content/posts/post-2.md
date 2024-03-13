@@ -3,9 +3,9 @@ title: Book Recommendations
 author: Grkinic, Domjan
 description: "A list of great chess books for varying levels!"
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
-    alt: "Thumbnail of Astro arcs."
-pubDate: 2022-07-08
+    url: "./books.jpeg"
+    alt: "Photo of a library"
+pubDate: 2024-03-13
 tags: ["astro", "blogging", "learning in public", "successes"]
 ---
 After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!
