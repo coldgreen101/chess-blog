@@ -10,10 +10,13 @@ tags: ["improvement", "books"]
 ---
 
 ## Introduction:
-Chess literature is a valuable resource for players looking to enhance their skills and understanding of the game. To cater to different skill levels, chess books can be categorized based on specific rating ranges, ensuring that players find material that suits their current level of play and helps them progress further.
+Chess literature is a valuable resource for players looking to enhance their skills and understanding of the game. To cater to different skill levels.
 
 ## Recommendations:
-1. **New to Chess (400-799)**: Books in this category are ideal for beginners who are just starting their chess journey and looking to grasp the fundamentals of the game.
+1. **Beginner (400-1400)**:
+- "How to Beat your Dad at Chess" by Murray Chandler
+- "Logical Chess: Move by Move" by Irving Chernev
+
 
 2. **Beginner (800-1199)**: Recommended for players who have a basic understanding of chess principles and are ready to delve deeper into tactics and strategies.
 
