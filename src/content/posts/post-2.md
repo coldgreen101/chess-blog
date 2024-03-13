@@ -35,7 +35,7 @@ Chess literature is a valuable resource for players looking to enhance their ski
 3. **Advanced (1900-2200+)**:
 - "Yusupov Book Series" (9 books) by Artur Yusupov
 - "Dvoretsky's Endgame Manual" by Mark Dvoretsky (disclaimer: recommended from 2100+)
-- "Improve your chess calculation"
+- "Chess Structures: A Grandmaster Guide" by Mauricio Flores Rios
 
 
 
